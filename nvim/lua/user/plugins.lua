@@ -38,6 +38,5 @@ lazy.opts = {
     notify = false,  -- get a notification when changes are found
   },
 }
-
 -- import plugins configs from nvim/lua/plugins/ folder
 lazy.setup({{import = 'plugins'}})

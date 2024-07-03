@@ -13,3 +13,4 @@ require('user.plugins')
 
 -- Load colorscheme
 pcall(vim.cmd.colorscheme, 'tokyonight')
+
