@@ -30,3 +30,8 @@ vim.keymap.set({'n', 'x'}, '<leader>t', '<cmd>tabnew<cr>')
 vim.keymap.set({'n', 'x'}, 'tn', '<cmd>tabnext<cr>')
 vim.keymap.set({'n', 'x'}, 'tb', '<cmd>tabnext -<cr>')
 
+-- Buffer shortcut
+-- vim.keymap.set({'n', 'x'}, '<leader>t', '<cmd><cr>')
+vim.keymap.set({'n', 'x'}, 'bn', '<cmd>bn<cr>')
+vim.keymap.set({'n', 'x'}, 'bf', '<cmd>bf<cr>')
+

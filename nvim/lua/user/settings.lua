@@ -11,3 +11,5 @@ vim.opt.signcolumn = 'yes'
 vim.opt.termguicolors = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
+vim.opt.clipboard = 'unnamedplus'
+vim.opt.mouse = 'nv'
